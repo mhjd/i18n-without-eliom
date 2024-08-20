@@ -1,0 +1,8 @@
+(executable
+ (name main)
+ (libraries tyxml ocsigen-i18n)
+ (preprocess (pps 
+           ocsigen-i18n
+           ocsigen-ppx-rpc
+           -- --default-module Body
+)))
