@@ -1,5 +1,4 @@
 (lang dune 3.15)
-
 (name noocsigen)
 
 (generate_opam_files true)
@@ -17,6 +16,7 @@
 
 (package
  (name noocsigen)
+ (allow_empty) 
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
