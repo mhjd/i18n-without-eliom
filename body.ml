@@ -1,5 +1,4 @@
 open Tyxml.Html
-
 module Tr = struct
 let my_site_title ?(lang = Header.get_language ()) ()  () =
 match lang with
@@ -28,4 +27,3 @@ match lang with
 | Header.Fr -> " Ceci est un contenu fabuleux"
 end
 end
-
