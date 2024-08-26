@@ -4,5 +4,5 @@
  (preprocess (pps 
            ocsigen-i18n
            ocsigen-ppx-rpc
-           -- --default-module Body
+           -- --default-module Headerbody
 )))
