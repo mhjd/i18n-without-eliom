@@ -1,6 +1,14 @@
 # README
-
+## How to test
+Go to the root of the project.
+Then, run it :
+```
+dune build
+./_build/default/main.exe
+```
+Normally, an index.html file will appear in the directory.
 ## Commands :
+Here is the commands for generating i18n files.
 ### Header-body distinct : 
 Generate the header :
 ```
