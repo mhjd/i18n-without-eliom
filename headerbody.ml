@@ -12,9 +12,9 @@ try language_of_string (String.sub s 0 (String.index s '-'))
 with Not_found -> 
 raise e 
 let languages = [En;Fr]
-let default_language = Fr
-let _language_ = default_language 
-let get_language () = default_language
+let default_language = En
+ let _language_ = default_language 
+let get_language () = _language_
 let set_language () = ()
 
 let txt = txt 
